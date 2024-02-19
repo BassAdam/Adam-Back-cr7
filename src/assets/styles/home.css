@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Finlandica&family=Inter&family=Montserrat:wght@100&family=Open+Sans:wght@300&family=Oswald&family=Outfit:wght@300&family=Poppins&family=Rubik&family=Ubuntu&display=swap');
+
+
+
+.bloc-home {width: 100%;
+    
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+
+.images-home::-webkit-scrollbar{
+    display: none;
+}
+/* Ajoutez ceci dans votre fichier home.css */
+
+
+/* Ajoutez ceci dans votre fichier home.css */
+
+.images-home {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    overflow-x: scroll;
+    margin-top: 50px;
+    
+  }
+  
+  .images-home img {
+    border-radius: 20px;
+    width: auto;
+    height: 440px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin: 0 10px; /* Ajustez la valeur de la marge selon vos préférences */
+    max-width: 260px;
+    
+  }
+  
+  .images-home img:hover {
+    
+    cursor: pointer;
+   
+    
+  }
+  
+  /* Reste du style... */
+  
+
+.bloc-home h1{
+    /* font-family: 'Oswald', sans-serif; */
+    text-transform: uppercase;
+    margin-top: 20px;
+}

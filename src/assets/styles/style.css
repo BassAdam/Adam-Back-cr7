@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Finlandica&family=Inter&family=Montserrat:wght@100&family=Open+Sans:wght@300&family=Oswald&family=Outfit:wght@300&family=Poppins&family=Rubik&family=Ubuntu:wght@300;400&display=swap');
+.logo{
+    width: 100px;
+    height: auto;
+    padding: 15px 25px;
+    
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    padding: 20px auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    
+}
+
+.navbar a {
+    font-size: 18px;
+    color: rgb(36, 36, 36);
+    font-weight: 500;
+    text-decoration: none;
+    padding: 0 25px;
+}
+/* 
+.foot{
+    padding: 57px 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+} */
+
+.foot-container{
+    background-color: rgb(255, 255, 255);
+    padding: 2px 0;
+    width: 100%;
+    
+    display: flex;
+   flex-direction: column;
+   gap: 10px;
+   border-top: 1px solid black;
+}
+
+.logofb{
+    padding-right: 40px; 
+    width: 40px;
+  }
+  .logoin{
+    padding-right: 40px;
+    width: 40px; 
+  }
+  .logotw{
+    padding-right: 40px; 
+    width: 40px;
+  }
+
+  .foot-liste ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    padding: 20px 0;
+    
+  }
+
+  .foot-container{
+    a {
+        text-decoration: none; /* Supprime le soulignement par défaut */
+        color: inherit; /* Utilise la couleur par défaut du texte parent */
+        cursor: pointer; /* Change le curseur en main au survol, comme un lien */
+      }
+      
+  }
+
+  .foot-copy p{
+    padding-bottom: 10px;
+  }
+
+/* .foot-liste li{
+  font-family:'Ubuntu', sans-serif;
+}
+
+.foot-copy p{
+  font-family: 'Ubuntu', sans-serif;
+} */
+
+.titree{
+  text-transform: uppercase;
+  margin: 60px 0;
+  padding-top: 100px;
+}
+
+/* Ajoutez ces styles dans votre fichier style.css ou tout autre fichier de style */
+
+.containerr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   /* Ajustez selon vos besoins, cela permet de centrer verticalement */
+   
+}
+
+.bloc1,
+.bloc2,
+.bloc3 {
+  flex: 1; /* Chaque bloc prendra autant d'espace que possible */
+  margin: 0 10px; /* Ajoutez une marge entre les blocs si nécessaire */
+  text-align: center; /* Centrez le contenu horizontalement */
+
+
+}
+
+.bloco1,
+.bloco2,
+.bloco3 {
+  
+
+  border-radius: 20px;
+  object-fit: cover;
+ 
+  width: auto;
+  height: 440px;
+  border-radius: 20px;
+  max-width: 500px;
+  cursor: pointer;
+  
+}
+
+.bloc1 p,
+.bloc2 p,
+.bloc3 p{
+ font-size: 18px;
+ font-family: 'PT Serif', serif;
+  margin: 20px 0;
+  line-height: 25px;  
+}
+
+.bloc1 h2,
+.bloc2 h2,
+.bloc3 h2{
+  margin-top: 25px;
+}
+
+.icons{
+  margin-top: 20px;
+}
