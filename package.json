@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "devoir-adam-react",
   "version": "0.1.0",
   "private": true,
@@ -41,5 +42,21 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+=======
+  "name": "backcr7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.4",
+    "nodemon": "^3.0.2"
+>>>>>>> 54b55aa40d48399bb9704d81858832d08d01a4e3
   }
 }
