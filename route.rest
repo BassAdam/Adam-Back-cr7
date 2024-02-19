@@ -1,0 +1,21 @@
+// Pour créer un nouvel utilisateur
+###
+POST http://localhost:3001/userRoute/newuser
+Content-Type: application/json
+
+{
+    "firstname": "toto",
+    "lastname": "tata",
+    "email": "tototati@gmail.com",
+    "password": "azertyuiop"
+}
+
+// Pour se connecter (vérification)
+###
+POST http://localhost:3001/userRoute/connection
+Content-Type: application/json
+
+{
+    "email": "tototati@gmail.com",
+    "password": "azertyuiop"
+}
